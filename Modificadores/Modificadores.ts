@@ -1,5 +1,5 @@
 class Persona{
-    nombre: string;
+    private nombre: string;
     constructor (elNombre:string){
         this.nombre= elNombre;
     }
@@ -13,6 +13,6 @@ let personA = new Persona ("Sally");
 
 personA.introduceSelf();// Imprime: Hola, soy Sally!
 
-personA.nombre="Mindy"; //Error
+//personA.nombre="Mindy";//Solo se puede acceder a la propiedad nombre dentro de la clase Persona 
 
 personA.introduceSelf();// Imprime: Hola, soy Mindy!
