@@ -9,7 +9,3 @@ function ClassDecoratorParams(param1: number, param2: string) {
 @ClassDecoratorParams(2, "b")
 class ClassDecoratorParamsExample {
 }
-ClassDecoratorParams(2, 'b') called on: function ClassDecoratorParamsExample() {
-}
-ClassDecoratorParams(1, 'a') called on: function ClassDecoratorParamsExample() {
-}

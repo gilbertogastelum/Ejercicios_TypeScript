@@ -18,11 +18,3 @@ var ClassDecoratorParamsExample = /** @class */ (function () {
     ], ClassDecoratorParamsExample);
     return ClassDecoratorParamsExample;
 }());
-ClassDecoratorParams(2, 'b');
-called;
-on: function ClassDecoratorParamsExample() {
-}
-ClassDecoratorParams(1, 'a');
-called;
-on: function ClassDecoratorParamsExample() {
-}
