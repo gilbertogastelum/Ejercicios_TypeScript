@@ -5,7 +5,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 function PropertyDecorator(target, propertyKey) {
-    console.log("PropertyDecorator called on: ", target, propertyKey);
+    console.log("PropertyDecorator called on : ", target, propertyKey);
 }
 var PropertyDecoratorExample = /** @class */ (function () {
     function PropertyDecoratorExample() {
