@@ -8,4 +8,3 @@ class PropertyDecoratorExample {
     @PropertyDecorator
     name: string;
 }
-PropertyDecorator called on: {} name

@@ -15,7 +15,3 @@ var PropertyDecoratorExample = /** @class */ (function () {
     ], PropertyDecoratorExample.prototype, "name");
     return PropertyDecoratorExample;
 }());
-PropertyDecorator;
-called;
-on: { }
-name;
